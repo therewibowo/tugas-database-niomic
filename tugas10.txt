@@ -1,0 +1,11 @@
+1. buat database
+create database import
+use import
+2. buat table
+   CREATE TABLE `buahbuahan` (
+  `id_buah` INT(10) UNSIGNED NOT NULL,
+  `nama_buah` VARCHAR(50) NOT NULL,
+  `varietas` VARCHAR(50) NOT NULL
+) ENGINE=INNODB DEFAULT CHARSET=latin1;
+
+3. source C:\xampp2\mysql\file_belajar\buahbuahan.sql;	

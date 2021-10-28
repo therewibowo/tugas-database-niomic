@@ -1,0 +1,18 @@
+DELIMITER //
+CREATE PROCEDURE penilaian(nim smallint)
+BEGIN
+declare nilai_ip decimal(4,2);
+ set nilai_ip = SELECT * FROM nilai_mahasiswa WHERE semester_1 = nim;
+CASE
+WHEN (nilai_ip <= 1.00) THEN
+SELECT 'Serius Kuliah a sih ?';
+WHEN (nilai_ip <= 2.00) THEN
+SELECT 'Kebanyakan main';
+WHEN (nilai_ip <= 3.00) THEN
+SELECT 'Berusaha Lagi';
+WHEN (nilai_ip <= 4.00) THEN
+SELECT 'Mantap bro,Pertahankan !';
+ELSE
+SELECT 'Nilai tidak sesuai';
+END CASE;
+END//

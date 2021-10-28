@@ -1,0 +1,3 @@
+1.	Sebutkan attribute dari tabel Mahasiswa!NPM,Nama,Jenis Kelamin, Jurusan, IPK
+2.	Sebutkan 3 buah tuple yang terdapat pada tabel Mahasiswa! 
+3.	Sebutkan 5 buah field yang terdapat pada tabel Mahasiswa! NPM,Nama,Jenis Kelamin, Jurusan, IPK

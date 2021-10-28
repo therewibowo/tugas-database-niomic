@@ -1,0 +1,10 @@
+DROP TRIGGER before_mahasiswa_insert_ipk
+
+DELIMITER $$
+CREATE TRIGGER before_mahasiswa_insert_ipk
+before INSERT ON nilai_mahasiswa
+FOR EACH ROW
+BEGIN
+DECLARE ipk DECIMAL(4,2);
+INSERT INTO ipk_mahasiswa VALUES (0, CONCAT(new.nama, ' (',(new.nim),')'),(new.semester_1+new.semester_2+new.semester_3)/3);
+END$$

@@ -1,0 +1,7 @@
+1.	Kumpulan karakter yang bisa di fahami oleh komputer
+2.	Penyimpnan data
+3.	SHOW CHARACTER SET;
+4.	SHOW COLLATION;
+5.	Integer,Tinyint, Mediumint,Bigint,Float,Double
+6.	Char, varchar, Tinytext, text dan Blob, Mediumtext, Longtext
+7.	Date , Datetime,timestamp, Year

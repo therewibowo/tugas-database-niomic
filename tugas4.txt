@@ -1,0 +1,8 @@
+1. Create database permainan;
+2. create table sepakbola (id_pemain int(11),
+			   nama_pemain varchar(180),
+			   usia_pemain int(20),
+			    posisi_pemain varchar(50));
+3. desc sepakbola;
+4. alter table sepakbola rename sepakbola_indonesia;
+5. drop dermawan;		

@@ -1,0 +1,14 @@
+create table mahasiswa_niomic
+	(nim int(10), nama varchar (100),asal varchar(20),
+	jurusan varchar(20), nilai_uan double)
+	
+	
+insert into mahasiswa_niomic values(1702017,
+	"James Situmorang","Medan", "Kedokteran Gigi", 341.10),
+	(17080225,"Husli Khairan","Jakarta","Akuntasi",288.55),
+	(17080305,"Rina Kumala Sari","Jakarta","Akuntasi",337.99),
+	(17090113,"Riana Putria","Padang","Kimia",339.20),
+	(17090222,"Sari Citra Lestari","Jakarta","Manajemen",310.60),
+	(17090308,"Christie Wijaya","Medan","Menejemen",321.60),
+	(170;
+		

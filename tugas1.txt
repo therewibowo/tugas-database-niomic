@@ -1,0 +1,10 @@
+1)	Database adalah  kumpulan data yang terorganisasi.
+2)	Relastional Database Management System.
+3)	Cara meyimpa data pada database model ada 5 yaitu :
+	a. Flat Model : Meyimpan data tanpa aturan dan cara penulisan tertentu
+	b. Hirarchical Model : Data terorganisasi dari atas ke bawah
+	c.Network Model : pengembangan dari atas ke bawah
+	d.Realtional Model : Menyusun data ke dalam bentuk tabel yang saling terhubung
+	e.Object Oriented Model : Menggunakan pendekatan Object dalam menyimpan data.
+4)	Sybase,Microsoft Access, Microsoft SQL Server, Postgre SQL,Maria DB dan Oracle.
+5)	Speed,Relibility,Scalability,User Frendly,Portability and Compliance,Multiuser Support

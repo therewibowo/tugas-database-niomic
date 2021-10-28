@@ -1,0 +1,36 @@
+1. create table kota(kota varchar(100),kecamatan int(50),
+keluarahan int(3),luas_wilayah double,jumlah_penduduk double);
+
+2. insert into kota values("Jakarta",44,267,664.01,998465)
+   INSERT INTO kota VALUES("Surabaya",31,154,350.54,2.805906)
+   INSERT INTO kota VALUES("Medan",21,151,265.54,2381906)
+   INSERT INTO kota VALUES("Bekasi",12,56,350.54,2.805906)
+   INSERT INTO kota VALUES("Bandung",20,151,350.54,2.805906)
+   INSERT INTO kota VALUES("Makasar",14,134,350.54,2.805906)
+   INSERT INTO kota VALUES("Depok",11,63,350.54,2.805906)
+   INSERT INTO kota VALUES("Semarang",177,154,350.54,2.805906)
+   INSERT INTO kota VALUES("Tangerang",104,154,350.54,2.805906)
+   INSERT INTO kota VALUES("Palembang",14,107,369.22,1.548906)
+
+ 3. insert into kota set kota="Tangerang",kecamatan=104,keluarahan=154,luas_wilayah=350.54,jumlah_penduduk=2.805906
+ 
+    INSERT INTO kota SET kota="Palembang",kecamatan=14,keluarahan=107,luas_wilayah=369.22,jumlah_penduduk=1.548906
+    
+    
+  4.  create table kota2 like kota
+    		
+ 
+   5. 	alter table kota2 drop kecamatan,
+   	alter table kota2 drop keluarahan,
+ 	alter table kota2 drop luas_wilayah
+    
+   6.  insert into kota2 select kota,jumlah_penduduk from kota
+   
+    
+   
+
+
+
+		  
+
+		  	

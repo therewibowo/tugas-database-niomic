@@ -1,0 +1,5 @@
+1.	X: semua server A: Apache M: Mysql  P:php P:Perl
+2.	Buka Xampp Control panel Klik tombol start pada mysql dan apache ,lalu jalankan webserver pada web browser ketik localhost/phpmyadmin
+3.	Modul MYSQL
+4.	Buka brower lalu ketikan localhost/phpmyadmin
+5.	Buka cmd lalu katikan cd/xampp/mysql/bin, lalu tekan enter lalu ketikan mysql – u root

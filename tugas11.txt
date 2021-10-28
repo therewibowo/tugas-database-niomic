@@ -1,0 +1,4 @@
+1. CREATE USER 'Niomic'@'localhost' IDENTIFIED BY 'c0b4d1b4c4'
+2. UPDATE USER SET PASSWORD = PASSWORD('rahasia') WHERE USER = 'Niomic';
+3. GRANT ALL ON belajar.mahasiswa TO Niomic@localhost;
+4. REVOKE ALL ON *.* Niomic@localhost;

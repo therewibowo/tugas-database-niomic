@@ -1,0 +1,18 @@
+1. SELECT kota,kec,kel,luas,penduduk FROM kota2
+
+
+2. SELECT kota AS 'Nama Kota',
+	kec AS 'Jumlah Kecamatan' ,
+	kel AS 'Jumlah Kelurahan' FROM kota2
+
+3. SELECT * FROM kota2 ORDER BY kec DESC
+
+4. SELECT* FROM kota2 ORDER BY kel LIMIT 2,5
+
+
+5. SELECT * FROM kota2 WHERE kota="Depok"
+
+6. SELECT kota,penduduk FROM kota2
+
+
+7. SELECT * FROM kota2 WHERE kec BETWEEN 20 AND 30

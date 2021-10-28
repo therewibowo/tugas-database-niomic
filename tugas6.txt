@@ -1,0 +1,23 @@
+1. CREATE TABLE 'latihan_1'(
+  `a` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `b` VARCHAR(10) CHARACTER SET utf8mb4 DEFAULT 'merdeka',
+  PRIMARY KEY (`a`)
+) ENGINE=MYISAM DEFAULT CHARSET=ASCII;
+
+2. alter table contoh_table engine=InoDB
+
+3. alter table contoh_table change b c varchar(20) DEFAULT 'merdeka'
+
+4. ALTER TABLE contoh_table ADD b DATE  DEFAULT '2018-01-01' AFTER a ;
+
+5. CREATE TABLE latihan_2 LIKE contoh_table
+
+6. ALTER TABLE latihan_2  ENGINE=MEMORY
+
+7. ALTER TABLE latihan_2  ENGINE=MEMORY
+
+8. create temporary table latihan_4 (
+	a timeSTAMP	);
+
+9. 	DROP TABLE latihan_1,contoh_table,latihan_3
+		
